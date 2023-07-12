@@ -3,6 +3,7 @@
 их необходимо считать, как одного человека с разными телефонами.
 Вывод должен быть отсортирован по убыванию числа телефонов. */
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
