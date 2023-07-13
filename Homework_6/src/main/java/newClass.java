@@ -14,7 +14,7 @@ public class newClass {
             while (iter.hasNext()) {
                 System.out.println(iter.next());
             }
-        System.out.println(newSet.get(0));
+        System.out.println(newSet.get(5));
     }
     }
     class MySet<T> {
@@ -47,6 +47,9 @@ public class newClass {
             for (int i = 0; i < values.length; i++){
                 values2[i] = Integer.parseInt(values[i].trim());
             }
+            if (value > values2.length) {
+                return -1;
+            };
             return values2[value];
         }
     }
